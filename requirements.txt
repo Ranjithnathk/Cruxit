@@ -1,6 +1,8 @@
+transformers
+transformers[sentencepiece]
 datasets
-sacrebleu
-rouge_score
+sacrebleu 
+rouge_score 
 py7zr
 pandas
 nltk
@@ -16,3 +18,4 @@ ensure==1.0.2
 fastapi==0.78.0
 uvicorn==0.18.3
 Jinja2==3.1.2
+#-e .

@@ -1,0 +1,54 @@
+[2025-05-05 21:42:08,081: INFO: main: Logging is implemented]
+[2025-05-15 23:20:27,009: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-15 23:20:43,137: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-15 23:21:25,362: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-15 23:23:12,529: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-15 23:25:04,232: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-15 23:25:30,313: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-15 23:27:05,976: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-15 23:28:23,366: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-15 23:32:21,025: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-15 23:32:21,027: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-15 23:32:21,030: INFO: common: created directory at: artifacts]
+[2025-05-15 23:32:21,032: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-05-15 23:32:21,915: INFO: 2175897188: File artifacts/data_ingestion/data.zip is downloaded!]
+[2025-05-15 23:56:14,941: INFO: main: stage Data Ingestion stage initiated]
+[2025-05-15 23:56:14,943: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-15 23:56:14,944: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-15 23:56:14,944: INFO: common: created directory at: artifacts]
+[2025-05-15 23:56:14,945: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-05-15 23:56:15,994: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 36E9:2E3E42:624F6:766A9:6826B1BB
+Accept-Ranges: bytes
+Date: Fri, 16 May 2025 03:56:07 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bos4685-BOS
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1747367767.337301,VS0,VE98
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: eb7a1dc8aa1da93a28b5ce3cf9a93141bc79d929
+Expires: Fri, 16 May 2025 04:01:07 GMT
+Source-Age: 0
+
+]
+[2025-05-15 23:56:16,103: INFO: main: stage Data Ingestion stage completed]
+[2025-05-15 23:59:09,921: INFO: main: stage Data Ingestion stage initiated]
+[2025-05-15 23:59:09,923: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-15 23:59:09,924: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-15 23:59:09,925: INFO: common: created directory at: artifacts]
+[2025-05-15 23:59:09,926: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-05-15 23:59:10,624: INFO: data_ingestion: File artifacts/data_ingestion/data.zip is downloaded!]
+[2025-05-15 23:59:10,737: INFO: main: stage Data Ingestion stage completed]
