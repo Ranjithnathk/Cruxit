@@ -52,3 +52,58 @@ Source-Age: 0
 [2025-05-15 23:59:09,926: INFO: common: created directory at: artifacts/data_ingestion]
 [2025-05-15 23:59:10,624: INFO: data_ingestion: File artifacts/data_ingestion/data.zip is downloaded!]
 [2025-05-15 23:59:10,737: INFO: main: stage Data Ingestion stage completed]
+[2025-05-16 00:22:55,753: INFO: config: PyTorch version 2.7.0 available.]
+[2025-05-16 00:32:44,224: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-16 00:32:44,228: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-16 00:32:44,231: INFO: common: created directory at: artifacts]
+[2025-05-16 00:32:44,235: INFO: common: created directory at: artifacts/data_transformation]
+[2025-05-16 00:33:32,866: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-16 00:33:32,866: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-16 00:33:32,866: INFO: common: created directory at: artifacts]
+[2025-05-16 00:33:32,874: INFO: common: created directory at: artifacts/data_transformation]
+[2025-05-16 00:36:29,142: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-16 00:36:29,146: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-16 00:36:29,148: INFO: common: created directory at: artifacts]
+[2025-05-16 00:36:29,148: INFO: common: created directory at: artifacts/data_transformation]
+[2025-05-16 00:36:55,343: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-16 00:36:55,352: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-16 00:36:55,352: INFO: common: created directory at: artifacts]
+[2025-05-16 00:36:55,352: INFO: common: created directory at: artifacts/data_transformation]
+[2025-05-16 00:37:45,166: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-16 00:37:45,166: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-16 00:37:45,166: INFO: common: created directory at: artifacts]
+[2025-05-16 00:37:45,175: INFO: common: created directory at: artifacts/data_transformation]
+[2025-05-16 00:52:14,223: INFO: config: PyTorch version 2.7.0 available.]
+[2025-05-16 00:52:14,599: INFO: main: stage Data Ingestion stage initiated]
+[2025-05-16 00:52:14,600: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-16 00:52:14,600: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-16 00:52:14,600: INFO: common: created directory at: artifacts]
+[2025-05-16 00:52:14,600: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-05-16 00:52:14,600: INFO: data_ingestion: File already exists!]
+[2025-05-16 00:52:14,691: ERROR: main: [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "C:\Users\ranji\Projects\Cruxit\main.py", line 9, in <module>
+    data_ingestion_pipeline.initiate_data_ingestion()
+  File "C:\Users\ranji\Projects\Cruxit\src\cruxit\pipeline\stage_1_data_ingestion_pipeline.py", line 15, in initiate_data_ingestion
+    data_ingestion.extract_zip_file()
+  File "C:\Users\ranji\Projects\Cruxit\src\cruxit\components\data_ingestion.py", line 36, in extract_zip_file
+    zip_ref.extractall(unzip_path)
+  File "C:\Users\ranji\Projects\Cruxit\venv\lib\zipfile.py", line 1634, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "C:\Users\ranji\Projects\Cruxit\venv\lib\zipfile.py", line 1688, in _extract_member
+    open(targetpath, "wb") as target:
+OSError: [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset\\test\\data-00000-of-00001.arrow'
+[2025-05-16 00:53:23,034: INFO: config: PyTorch version 2.7.0 available.]
+[2025-05-16 00:53:23,366: INFO: main: stage Data Ingestion stage initiated]
+[2025-05-16 00:53:23,366: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-16 00:53:23,366: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-16 00:53:23,366: INFO: common: created directory at: artifacts]
+[2025-05-16 00:53:23,366: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-05-16 00:53:24,317: INFO: data_ingestion: File artifacts/data_ingestion/data.zip is downloaded!]
+[2025-05-16 00:53:24,514: INFO: main: stage Data Ingestion stage completed]
+[2025-05-16 00:53:24,514: INFO: main: stage Data Transformation stage initiated]
+[2025-05-16 00:53:24,514: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-16 00:53:24,514: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-16 00:53:24,514: INFO: common: created directory at: artifacts]
+[2025-05-16 00:53:24,514: INFO: common: created directory at: artifacts/data_transformation]
+[2025-05-16 00:53:35,752: INFO: main: stage Data Transformation stage completed]
